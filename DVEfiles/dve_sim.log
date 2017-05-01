@@ -1,0 +1,43 @@
+10:25:37    16 -->                                                             [tcl] ucliGUI::connect -toolargs -ucligui -toolexe ./simv -pid 10990 -toolin /tmp/vcs_20170425152524_10989_tchouhan..stdin -toolout /tmp/vcs_20170425152524_10989_tchouhan..stdout  
+10:25:37    17 -->                                                                 [tcl] set ucliGUI::state
+10:25:37    18 -->                                                                     [tcl] gui_update_simulator_buttons
+10:25:39    19 -->                                                                         [tcl] set ucliGUI::state
+10:25:39    20 -->                                                                             [tcl] ucliCore::getToolPID
+10:25:39    21 -->                                                                                 [tcl] synopsys::env hasTB
+10:25:39    22 -->                                                                                     [tcl] trigger_hier_stack_context_switch 0
+10:25:39    23 -->                                                                                         [tcl] gui_get_env SIMSETUP::SIMVPD
+10:25:39    24 -->                                                                                             [tcl] synUtils::setDVEInitPhase 1
+10:25:39    25 --> ...  [tcl] synopsys::dump -type VPD -file /home/ecelrc/students/tchouhan/highspeed/inter.vpd -locking
+10:25:39    26 --> ...      [tcl] synopsys::dump -autoflush on -fid VPD0
+10:25:39    27 --> ...          [tcl] synUtils::setDVEInitPhase 0
+10:25:39    28 --> ...              [tcl] ucliCore::getToolPID
+10:25:39    29 --> ...                  [tcl] synUtils::sendTool -active {_icl_start_rpc -version "G-2012.09"}
+10:25:39    30 --> ...                      [tcl] set ::dve_fid VPD0
+10:25:39    31 --> ...                          [tcl] dveMisc::vbusExpand wallace
+10:25:40    32 --> ...                              [tcl] config endofsim noexit
+10:25:40    33 --> ...                                  [tcl] config onfail enable all
+10:25:40    34 --> ...                                      [tcl] synopsys::listing -disable
+10:25:54    35 --> ...                                          [tcl] ucliGUI::vpdAddHierarchy -scope wallace -depth 1 -file /home/ecelrc/students/tchouhan/highspeed/inter.vpd; synopsys::dump -flush VPD0
+10:25:54    36 --> ...                                              [tcl] synopsys::dump -add {wallace.a wallace.b wallace.out } -aggregates  -fid VPD0
+10:26:12    37 --> ...                                                  [tcl] synopsys::run
+10:26:12    38 --> ...                                                      [tcl] set ucliGUI::state
+10:26:12    39 --> ...                                                          [tcl] set ucliGUI::state
+10:26:12    40 --> ...                                                              [tcl] gui_update_simulator_buttons
+10:26:15    41 --> ...                                                                  [tcl] set synopsys::env(time) 29835105000
+10:26:16    42 --> ...                                                                      [tcl] ucliCore::getToolPID
+10:26:16    43 --> ...                                                                          [tcl] ucliCore::stopTool -no_signal
+10:26:16    44 --> ...                                                                              [tcl] set ucliGUI::state
+10:26:16    45 --> ...                                                                                  [tcl] set ucliGUI::state
+10:26:16    46 --> ...                                                                                      [tcl] catch {senv activeDomain} dveMisc::result 
+10:26:16    47 --> ...                                                                                          [tcl] set dveMisc::result
+10:26:16    48 --> ...                                                                                              [tcl] gui_update_simulator_buttons
+10:27:14    49 --> ...                                                                                                  [tcl] if [catch {gui_sim_terminate}] {gui_sim_terminate -kill}
+10:27:14    50 --> ...  [tcl] synopsys::finish
+10:27:14    51 --> ...      [tcl] set ucliGUI::state
+10:27:15    52 --> ...          [tcl] set ucliGUI::state
+10:27:15    53 --> ...              [tcl] catch {senv activeDomain} dveMisc::result 
+10:27:15    54 --> ...                  [tcl] set dveMisc::result
+10:27:15    55 --> ...                      [tcl] gui_update_simulator_buttons
+10:27:15    56 --> ...                          [tcl] catch {senv activeDomain} dveMisc::result 
+10:27:15    57 --> ...                              [tcl] set dveMisc::result
+10:27:15    58 --> ...                                  [tcl] ucli_exit

@@ -1,0 +1,33 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : wallace1
+Version: G-2012.06-SP4
+Date   : Mon Apr 24 19:17:14 2017
+****************************************
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+  Startpoint: product_reg[15]
+              (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: product[15]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  product_reg[15]/CLK (DFFPOSX1)           0.00       0.00 r
+  product_reg[15]/Q (DFFPOSX1)             0.10       0.10 f
+  product[15] (out)                        0.00       0.10 f
+  data arrival time                                   0.10
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+design_vision> 

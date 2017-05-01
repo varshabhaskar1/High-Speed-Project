@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<opml version="1.0">
+	<head>
+		<title>VCS dump file for DVE debugging</title>
+		<vcsVersion>G-2012.09</vcsVersion>
+		<dateCreated>Sun Apr 30 14:54:48 2017</dateCreated>
+	</head>
+	<body>
+		<!-- VCS compile options -->
+		<vcsCompileOptions text="/usr/local/packages/synopsys_2012/vcs-mx/linux/bin/vcs1 -Mcc=gcc -Mcplusplus=g++ -Masflags= -Mcfl= -pipe -O -I/usr/local/packages/synopsys_2012/vcs-mx/include  -Mldflags= -melf_i386  -Mout=simv -Mamsrun= -Mvcsaceobjs= -Mobjects= /usr/local/packages/synopsys_2012/vcs-mx/linux/lib/libvirsim.so /usr/local/packages/synopsys_2012/vcs-mx/linux/lib/librterrorinf.so /usr/local/packages/synopsys_2012/vcs-mx/linux/lib/libsnpsmalloc.so  -Msaverestoreobj=/usr/local/packages/synopsys_2012/vcs-mx/linux/lib/vcs_save_restore_new.o -Mcrt0= -Mcrtn= -Mcsrc= -Msyslibs=/usr/local/packages/synopsys_2012/vcs-mx/linux/lib/ctype-stubs_32.a -ldl -lm  -Xcbug=0x1 +cli+4 +vcsd +itf+/usr/local/packages/synopsys_2012/vcs-mx/linux/lib/vcsd.tab +vpi -debug=3 +memcbk +vpi -gen_obj -f master16 "/>
+		<!-- File list for the whole design -->
+		<fileList>
+			<file fid="0" path="/home/ecelrc/students/vbhaskar/highspeed/wallace/highspeed/FA.v" />
+			<file fid="1" path="/home/ecelrc/students/vbhaskar/highspeed/wallace/highspeed/24_bit_adder.v" />
+			<file fid="2" path="/home/ecelrc/students/vbhaskar/highspeed/wallace/highspeed/wallace16.v" />
+			<file fid="3" path="/home/ecelrc/students/vbhaskar/highspeed/wallace/highspeed/top16.v" />
+			<file fid="4" path="/home/ecelrc/students/vbhaskar/highspeed/wallace/highspeed/HA.v" />
+		</fileList>
+		<!-- Include file list for the whole design -->
+		<includeFileList>
+		</includeFileList>
+		<!-- Encrypted codes list for the whole design -->
+		<encryptedCodesList>
+		</encryptedCodesList>
+		<!-- Inactive codes list for the whole design -->
+		<inactiveCodesList>
+		</inactiveCodesList>
+		<!-- Compile options UUM based -->
+		<langKeywords>
+			<v2kFiles fid="0-4" />
+		</langKeywords>
+		<!--  Case insensitive file list -->
+		<caseInsensitiveFiles fid="" />
+		<!-- Macro definition list for the whole design --> 
+		<macroDefinitionList>
+		</macroDefinitionList>
+		<!-- Macro value list for the whole design --> 
+		<macroValueList>
+		</macroValueList>
+	</body>
+</opml>
